@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vb;
+    background-color: black;
+}
+
+#app {
+    text-align: center;     
+}
+#button-container {
+    display: flex; 
+    justify-content: space-around; 
+    
+}
+
+button {
+    background-color: blueviolet;
+    color: white; 
+    border:none;
+    border-radius: 5px; 
+    padding: 10px;
+    margin:10px;
+    font-size: 16px; 
+    
+}
+
+#result, #score, #winner {
+    margin: 10px; 
+    font-size: 18px; 
+    color:white;
+}
+
+#winner {
+    font-weight: bold; 
+    font-size: 20px; 
+    color: green;
+}

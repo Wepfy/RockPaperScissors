@@ -2,19 +2,14 @@
 let humanScore = 0;
 let computerScore = 0;
 
-playGame();
+
 
 
 
 function playGame() {
-
-    for (let i = 0; i < 5; i++) {
-
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
     playRound(humanSelection, computerSelection);
-    }
-
     console.log("Final scores, You: " + humanScore + ", Computer: " + computerScore);
 }
 
